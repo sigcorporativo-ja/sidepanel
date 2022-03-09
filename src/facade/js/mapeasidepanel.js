@@ -1,5 +1,3 @@
-/* eslint-disable */
-
 /**
  * @module M/ui/Sidepanel
  */
@@ -158,7 +156,7 @@ export default class MapeaSidepanel extends M.ui.Panel {
             this.initializeHtmlPanel();
         }
         pluginPanel = this.getPluginPanel(plugin);
-        console.log('Panel de ' + plugin.name, pluginPanel);
+        //console.log('Panel de ' + plugin.name, pluginPanel);
         //Si no existe no se puede agregar
         if (pluginPanel) {
             htmlPluginPanel = pluginPanel.getTemplatePanel();
