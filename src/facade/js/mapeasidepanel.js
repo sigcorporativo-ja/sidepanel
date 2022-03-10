@@ -1,3 +1,4 @@
+/* eslint-disable */
 /**
  * @module M/ui/Sidepanel
  */
